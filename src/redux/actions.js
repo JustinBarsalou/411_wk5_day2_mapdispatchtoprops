@@ -4,3 +4,10 @@ const AddCar = (car) => {
       value: car
   }
 }
+
+const RemoveCar = (index) => {
+  return {
+      type: 'REMOVE_CAR',
+      value: index
+  }
+}
